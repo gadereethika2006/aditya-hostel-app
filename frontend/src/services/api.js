@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://hostel-backend.onrender.com/api",
+  baseURL: "https://aditya-hostel-app.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {

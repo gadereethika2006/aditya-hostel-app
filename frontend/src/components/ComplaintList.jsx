@@ -8,7 +8,7 @@ export default function ComplaintList() {
       const token = localStorage.getItem("token");
 
       const res = await fetch(
-        "http://localhost:5000/api/complaints/my",
+        "https://aditya-hostel-app.onrender.com/api/complaints",
         {
           headers: {
             Authorization: `Bearer ${token}`
